@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.coding_labs.Learn_Guitar_ar"
+        versionCode = "2" 
+        version     = "0.1.1" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>تعلم العزف على الجيتار</name>
+
+    <description>
+		 تعلم العزف على الجيتار بأسهل الطرق.
+    </description>
+
+    <author href="https://coding-labs.com" email="admin@coding-labs.com">
+        imadOs
+    </author>
+	<icon src="icon.png" platform="android" />
+	<access origin="*" />
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" /> 
+	
+
+	
+</widget>
