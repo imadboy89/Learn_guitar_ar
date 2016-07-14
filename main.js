@@ -4,11 +4,11 @@
     if (admob) {
       var adPublisherIds = {
         ios : {
-          banner : "ca-app-pub-5231842333475288/1159723459"
+          banner : "ca-app-pub-5231842333475288/9558804259"
         },
         android : {
-          banner : "ca-app-pub-5231842333475288/1159723459",
-          interstitial : "ca-app-pub-5231842333475288/4113189854",
+          banner : "ca-app-pub-5231842333475288/9558804259",
+          interstitial : "ca-app-pub-5231842333475288/2035537456",
         }
       };
 
@@ -67,58 +67,13 @@ function get_remote_action(){
 	});
 
 }
-
-$.event.special.tap = {
-  // Abort tap if touch lasts longer than half a second
-  timeThreshold: 500,
-  setup: function() {
-    var self = this,
-      $self = $(self);
-
-    // Bind touch start
-    $self.on('touchstart', function(startEvent) {
-      // Save the target element of the start event
-      var target = startEvent.target,
-        timeout;
-
-      function removeTapHandler() {
-        clearTimeout(timeout);
-        $self.off('touchend', tapHandler);
-      };
-
-      function tapHandler(endEvent) {
-        removeTapHandler();
-
-        // When the touch end event fires, check if the target of the
-        // touch end is the same as the target of the start, and if
-        // so, fire a click.
-        if (target == endEvent.target) {
-          $.event.simulate('tap', self, endEvent);
-        }
-      };
-
-      // Remove the tap handler if the timeout expires
-      timeout = setTimeout(removeTapHandler, $.event.special.tap.timeThreshold);
-
-      // When a touch starts, bind a touch end handler
-      $self.on('touchend', tapHandler);
-    });
-  }
-};
-
 //get_remote_action();
 //////////////::
 ///////////////////:::
 ///////////////////////::
 ///////////////////::
 //////////////////
-function get_page_from_ST(p){
-	if (p>15 || p<1)
-		return;
-		
-	return localStorage.getItem("p"+p)
-	//localStorage.setItem("lastname", "Smith");
-}
+
 $(".home").click(function(){
 	document.location = "../main.html";
 });
@@ -153,11 +108,11 @@ $(".options").click(function(){
     
 $(".Guides").click(function(){
 	id = $(this).attr("data_id");
+	url = "Guides/"+id+".html";
 	//document.location="#p"+id;
-	html = get_page_from_ST(id);
+	$(".details").hide();
 	$(".main_cnt").hide();
-	$("#Container").html(html);
-	$("#Container").show();
+	$("#p"+id).show();
 });
 $(document).ready(function(){
 	
