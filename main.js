@@ -96,7 +96,10 @@ $("#prev").click(function(){
 });
 
 $(".options").click(function(){
-	document.location = "Guides/0.html";
+	$(".main_cnt").hide();
+	$(".details").hide();
+	$("#p0").show();
+	window.scrollTo(0, 0);
 });
     
 $(".Guides").click(function(){
