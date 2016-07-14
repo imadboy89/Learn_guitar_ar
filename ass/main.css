@@ -1,0 +1,118 @@
+.safe{
+	background : rgba(1, 234, 137, 0.58);
+}
+.unsafe{
+	background : rgba(255, 41, 41, 0.63);
+}
+#res_tab{
+	width:90%;
+    border: 1px solid black;
+}
+#res_tab tr td{
+    height: 50px;
+	border: 1px solid black;
+	text-align :center;
+
+}
+.month_b{
+	font-weight: bolder;
+	color: rgba(0, 20, 255, 0.58);
+}
+.ui-content {
+	min-height: 300px;
+}
+.ui-header .ui-fullsize .ui-btn-inner{
+    font-size: 18px;
+	background-color: #95a5a6 !important;
+	padding: 6px;
+    margin: 2px;
+}
+body > div.ui-page.ui-body-c.ui-page-active > div.ui-header.ui-bar-a > center > div:nth-child(1) {
+	float:left;
+}
+body > div.ui-page.ui-body-c.ui-page-active > div.ui-header.ui-bar-a > center > div:nth-child(2)
+{
+	float:right;
+}
+.ui-datepicker{
+	width:100%
+}
+
+.main_cnt{
+	margin: 5px;
+    padding: 5px;
+	
+}
+.ui-btn {
+	margin: -.1em 0;
+}
+.main_cnt .ui-btn-text{
+	font-size: 20px;
+    color: #47596d;
+}
+.ui-btn-inner{
+	#padding: .3em 10px;
+	text-align: right;
+	font-family: cursive;
+	#font-size:15px;
+	background-color : #d6eaf1 !important
+}
+.img_gd{
+	width:100%
+}
+.main_cnt h2{
+	text-align:right;
+	color: #2980b9;
+	font-size: 29px;
+}
+.ui-header .ui-title, .ui-footer .ui-title{
+
+}
+h1{
+    margin-right: 60px;
+    font-size: 25px;
+    width: 90%;
+    /* position: absolute; */
+    float: right;
+	font-size: 25px !important;
+	margin:0px;
+	text-align: right !important;
+	
+}
+.ui-header{
+	height: 60px !important;
+}
+.ui-header .ui-btn-inner{
+
+}
+.details{
+    margin-top: 4px !important;
+    text-align: right !important;
+    margin-left: 2% !important;
+    margin-right: 3% !important;
+    width: 95% !important;
+    font-size: 20px !important;
+    position: initial !important;
+}
+.details ol {
+}
+.step_img{
+    margin-bottom: 10px;
+	width:100%;
+	border: 1px black  solid;
+}
+#nav_btns {
+	margin-top:10px;
+	border:1px Black solid;
+	padding:5px
+}
+#nav_btns div{
+	width:70px;
+}
+#nav_btns div span{
+    padding: 8px;
+}
+#nav_btns .ui-btn-inner {
+    background-color: #79d4b2 !important;
+
+}
