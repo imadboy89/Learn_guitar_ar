@@ -19,7 +19,6 @@
 	<icon src="icon.png" platform="android" />
 	<access origin="*" />
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" /> 
-	<gap:plugin name='org.crosswalk.engine' version='1.3.0' source='pgb' />
 
 
 	
