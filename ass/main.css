@@ -81,6 +81,7 @@ h1{
 }
 .ui-header{
 	height: 60px !important;
+	width: 100%;
 }
 .ui-header .ui-btn-inner{
 
@@ -90,7 +91,7 @@ h1{
     text-align: right !important;
     margin-left: 2% !important;
     margin-right: 3% !important;
-    width: 95% !important;
+    width: 94% !important;
     font-size: 20px !important;
     position: initial !important;
 }
@@ -110,7 +111,7 @@ h1{
 	width:70px;
 }
 #nav_btns div span{
-    padding: 8px;
+    padding: 6px;
 }
 #nav_btns .ui-btn-inner {
     background-color: #79d4b2 !important;
