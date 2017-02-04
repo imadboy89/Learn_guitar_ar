@@ -4,11 +4,11 @@
     if (admob) {
       var adPublisherIds = {
         ios : {
-          banner : "ca-app-pub-5231842333475288/9558804259"
+          banner : "ca-app-pub-5231842333475288/1519619057"
         },
         android : {
-          banner : "ca-app-pub-5231842333475288/9558804259",
-          interstitial : "ca-app-pub-5231842333475288/2035537456",
+          banner       : "ca-app-pub-5231842333475288/1519619057",
+          interstitial : "ca-app-pub-5231842333475288/5949818650",
         }
       };
 
@@ -31,7 +31,7 @@
       admob.showInterstitialAd();
       showNextInterstitial = setTimeout(function() {
         admob.requestInterstitialAd();
-      }, 40 * 1000); // 2 minutes
+      }, 120 * 1000); // 2 minutes
     }
   }
 
