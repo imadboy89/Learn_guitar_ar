@@ -4,11 +4,11 @@
     if (admob) {
       var adPublisherIds = {
         ios : {
-          banner : "ca-app-pub-5231842333475288/1519619057"
+          banner : "ca-app-pub-5231842333475288/8624083458"
         },
         android : {
-          banner       : "ca-app-pub-5231842333475288/1519619057",
-          interstitial : "ca-app-pub-5231842333475288/5949818650",
+          banner       : "ca-app-pub-5231842333475288/8624083458",
+          interstitial : "ca-app-pub-5231842333475288/1100816652",
         }
       };
 
