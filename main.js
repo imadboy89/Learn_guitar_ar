@@ -67,7 +67,7 @@ function get_remote_action(){
 	});
 
 }
-//get_remote_action();
+get_remote_action();
 //////////////::
 ///////////////////:::
 ///////////////////////::
