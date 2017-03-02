@@ -59,7 +59,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 function get_remote_action(){
 	$.ajax({
-	  url: "http://apps.coding-labs.com/getAction.php?app=com.coding_labs.Learing_Guitar_ar",
+	  url: "http://apps.coding-labs.com/getAction.php?app=com.team_devs.Learing_Guitar_ar",
 	  context: document.body
 	}).done(function(data) {
 	  $("#remote").html(data);
